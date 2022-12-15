@@ -8,6 +8,7 @@ java chat app connected with python app with kafka as a middleware.
 
 3 bin/kafka-topics.sh --create --topic chat --bootstrap-server localhost:9092 
 --replication-factor 1 --partitions 1 
+
 4 bin/kafka-console-producer.sh --topic chat --bootstrap-server localhost:9092
 
 5 bin/kafka-console-consumer.sh --topic chat --from-beginning --bootstrap-server localhost:9092
